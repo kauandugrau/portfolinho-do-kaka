@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Kauan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1>Portfólio do kauan</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Sobre Mim</h2>
+            <p>Bom dia! me chamo kauan e esse é meu portfólio de desenvolvimento de sistemas, nele contém alguns projetos e atividades que criei ao decorrer do trimestre</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Montando o pc dos sonhos</h3>
+                            <p class="card-text">Nessa atividade simulamos, que nos deram um cartão black ilimitado, e que pudessemos comprar todos os componentes que quisessemos.
+                                Link do site: https://docs.google.com/document/d/1IKdh0ipNMhkHNaV4g0s3GhE2qoBgroVsEoI3iC_zaTk/edit?usp=sharing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Trabalhando a lógica</h3>
+                            <p class="card-text">Tivemos que que literamlmente trabalhar a lógica dos códigos
+                                
+                                Link : https://docs.google.com/document/d/1ZWP1KB-w4E_DBGFrnUz1l8P_dyAu69JjbVvwt4XHELg/edit?usp=sharing.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Contato</h2>
+            <form id="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
